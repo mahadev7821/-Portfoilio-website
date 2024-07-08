@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahadev - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 32);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(0, 0, 60);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.01rem;
+            color: rgb(119, 119, 213);
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(69, 69, 173);
+            height: 1.5px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px;
+
+        }
+
+        .leftsection {
+
+            font-size: 2.5rem;
+
+        }
+
+
+        .firstsection>div {
+            width: 31%;
+            margin: -52px 0;
+        }
+
+        .leftsection .btn {
+
+            color: white;
+            border: 2px solid white;
+            background-color: rgb(48, 55, 161);
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 6px;
+            padding: 12px;
+
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(129, 73, 182);
+        }
+
+        .text-gray {
+            color: gray;
+            margin: 80px;
+        }
+
+        #element {
+            color: rgb(137, 84, 189);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+            margin: 0 80px;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0px;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 62px;
+            margin: -12px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(33, 22, 33);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+
+        }
+
+        .footer>div {
+            width: 233px;
+        }
+
+        footer>div.footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Mahadev's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple"> Mahadev</span>
+
+
+                <div>and I am a passionate </div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn"> Visit Github</button>
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti quisquam omnis vel,
+                        magnam velit, animi voluptates amet ullam eaque, aliquid iste. Iusto?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Node Js developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti quisquam omnis vel,
+                        magnam velit, animi voluptates amet ullam eaque, aliquid iste. Iusto?
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti quisquam omnis vel,
+                        magnam velit, animi voluptates amet ullam eaque, aliquid iste. Iusto?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Phython Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti quisquam omnis vel,
+                        magnam velit, animi voluptates amet ullam eaque, aliquid iste. Iusto?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        React Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti quisquam omnis vel,
+                        magnam velit, animi voluptates amet ullam eaque, aliquid iste. Iusto?
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        backend Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti quisquam omnis vel,
+                        magnam velit, animi voluptates amet ullam eaque, aliquid iste. Iusto?
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer - first ">
+                <h3>Mahadev's Developer Portfolio</h3>
+            </div>
+            <div class="footer - second">
+                <ul>
+                    <li>Home </li>
+                    <li>About </li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="footer - third ">
+                <ul>
+                    <li>Home </li>
+                    <li>About </li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+            <div class="footer - fourth">
+                <ul>
+                    <li>Home </li>
+                    <li>About </li>
+                    <li>Services</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.mahadevsportfolio.com | All rights reserved
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphics Designer', 'Game Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
